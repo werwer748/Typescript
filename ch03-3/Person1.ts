@@ -17,4 +17,4 @@ let jack1 : Person1 = new Person1()
 jack1.name = 'Jack'; jack1.age = 32;
 console.log(jack1)
 
-//클래스의 속성은 이름앞에 붙일수 있다. 생략할 경우 public으로 간주한다.
+//클래스의 속성(public,private,protect)은 이름앞에 붙일수 있다. 이를 접근제한자라 한다. 생략할 경우 public으로 간주한다.
